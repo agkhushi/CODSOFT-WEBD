@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+
+
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 80px;
+    background: rgb(235,35,123);
+background: radial-gradient(circle, rgba(235,35,123,1) 0%, rgba(178,50,128,1) 29%, rgba(39,86,140,1) 100%);
+}
+
+nav .left{
+    color: rgb(7, 10, 12);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(6, 4, 4);
+   font-size: 1.2rem;
+   font-weight: 400;
+
+}
+
+nav ul li a:hover{
+    
+    color: rgb(22, 22, 70);
+    font-size: 1.04rem;
+}
+
+.left{
+   font-size: 1.5rem;
+   font-weight: 600;
+}
+
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 130px 0;
+    
+}
+
+.firstsection >div{ 
+    width: 30%;
+    gap: 20px;
+}
+
+.leftsection{
+   
+    font-size: 2rem;
+    
+}
+
+.leftsection .btn{
+   padding: 10px;
+   background:rgb(15, 30, 105);
+   color: white;
+   border: 1px solid white;
+   border-radius: 6px;
+   font-size: 20px;
+   cursor: pointer;
+   margin: 30px 0;
+
+   
+}
+.buttons a{
+    text-decoration: none;
+
+    color: rgb(28, 21, 21);
+}
+    
+.rightsection img{
+ width: 300px;
+ height: 310px;
+ 
+ 
+ 
+
+}
+.purple{
+    color: rgb(35, 16, 53);
+    font-weight: 600;
+}
+
+#element{
+    color: rgb(35, 16, 53);
+    font-weight: 600;
+}
+/*section 2nd */
+
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+main hr{
+    border: 0;
+    background-color: rgb(176, 141, 209);
+    height: 1.2px;
+    margin: 60px 84px;
+}
+
+.text-gray{
+    color: gray;
+}
+
+.secondsection h1{
+    font-size: 1.9rem;
+    
+}
+
+.secondsection .box{
+    width: 77vw;
+    background:white ;
+    height: 2px;
+    margin: 56px 0;
+    
+    display: flex;
+}
+
+.secondsection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+.image-top{
+    width:50px;
+    position: relative;
+    top: -60px;
+    left: -20px;
+}
+
+
+.vertical-title{
+
+
+    position: relative;
+    top: 60px;
+    right: 10px;
+    width: 150px;
+   font-weight: 600;
+}
+
+.vertical-desc{
+    position: relative;
+    top: 86px;
+    right: 10px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+
+}
